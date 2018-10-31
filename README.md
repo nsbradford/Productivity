@@ -9,11 +9,11 @@ A collection of ideas regarding productivity
 * Motivation is at the root of productivity, and it comes from 1) having strongly defined goals, and 2) knowing the consequences if your worst flaws are left unchecked.
 * Habits are compoundable programs for self-automation. Habits and routine are positive.
 * You’ll have to bargain with yourself if you want any chance of following your plans.
-* Favor assertiveness over open-mindedness lest you die of analysis paralysis. “The most impressive people I know have strong beliefs about the world, which is rare in the general population. If you find yourself always agreeing with whomever you last spoke with, that’s bad.” (Sam Altman’s blog)
-* Write what you learn down as principles which you can share and discuss with other people; they can in turn rip you apart and spur you to improve (i.e. this page).
+* Favor assertiveness over open-mindedness lest you die of analysis paralysis. “The most impressive people I know have strong beliefs about the world, which is rare in the general population. If you find yourself always agreeing with whomever you last spoke with, that’s bad.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
+* Write what you learn down as [principles](https://www.principles.com/) which you can share and discuss with other people; they can in turn rip you apart and spur you to improve (i.e. this page).
 
 ## Goals
-* “Productivity in the wrong direction isn’t worth anything at all.” (Sam Altman’s blog)
+* “Productivity in the wrong direction isn’t worth anything at all.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
 * Your most fundamental goal is the answer to “Who do I want to become?”
 * Journal with an either daily or weekly frequency to force synthesis and track your progress against your goals.
 * Perform personal yearly reviews against your goals, and use the opportunity to learn from your failures and plan better for next year.
@@ -50,11 +50,11 @@ Use Mint (or similar) for personal finance, as it’ll intelligently categorize 
 Happiness increases with money until you’re making ~$70-80k (i.e. around where money stops becoming a stress factor and you can live “comfortably”) and then having more money has little impact. However, what you spend the money on can impact your happiness: favor 1) giving charitably, 2) buying experiences instead of possessions, and 3) use money to free up your time so you can do more of the things you enjoy. (Sources: ?)
 
 ## Professional/Career
-Keep an open network; 90% of your random meetings will be a waste, but the other 10% will make up for it (Sam Altman’s blog).
+Keep an open network; 90% of your random meetings will be a waste, but the other 10% will make up for it ([Sam Altman’s blog](http://blog.samaltman.com/productivity)).
 
 ## Meetings
 Run meetings using the Jeff Bezos technique of having participants write up their thoughts beforehand and comment on each others’ write-ups; takes some time, but results in well-fleshed-out ideas and very efficient decision-making.
-“Most meetings are best scheduled for 15-20 minutes, or 2 hours. The default of 1 hour is usually wrong, and leads to a lot of wasted time.” (Sam Altman’s blog)
+“Most meetings are best scheduled for 15-20 minutes, or 2 hours. The default of 1 hour is usually wrong, and leads to a lot of wasted time.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
 
 ## Misc processes/tools
 Learn through online courses and textbooks instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
@@ -67,7 +67,7 @@ Subscribe to newsletters instead of browsing aimlessly - I put out my own, but I
 ## What I'm looking for/trying next
 Simple things
 More better newsletters: contenders include FirstFt from Financial Times, ZeroHedge, Frontrunning, Levine on Wall Street, Quartz, WSJ
-Full spectrum LED light apparently gives great benefits from 10-15 minutes of use in the morning, perhaps this one (Sam Altman’s blog)
+Full spectrum LED light apparently gives great benefits from 10-15 minutes of use in the morning, perhaps this one ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
 Tools
 Internet history search: perhaps History Search
 To-do list schemes: Workflowy
