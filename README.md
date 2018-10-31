@@ -1,7 +1,4 @@
 # Productivity
-A collection of ideas regarding productivity
-
-## What is this page?
 * A collection of ideas regarding productivity, varying in level from abstract to detailed, and varying in supporting evidence from personal intuition to scientific study.
 * It's intended to be a living document.
 
@@ -45,46 +42,49 @@ It’s important to wake up at a consistent time, so avoid oversleeping on weeke
 Diet and Nutrition: mostly hard to find “general” rules; e.g. the apparent conflict between the “intermittent fasting” crowd and the “breakfast is the most important meal” crowd, which I’ll try to resolve with the edict “if you feel hungry, eat breakfast”. Coffee is associated with mild health benefits (Healthcare Triage), but tea does basically nothing. Weirdly, consuming 1-2 alcohol drinks a day is actually associated with overall health benefits (some claim only red wine, but that’s confounded with income level?) - unsurprisingly, more than that is very detrimental (Healthcare Triage). 
 Exercise: 30 minutes of light cardio or weight training 5 times per week, enough to elevate heart rate, is enough to get all of the long-term health benefits, which are considerably large (Healthcare Triage). Also interesting: weight loss is mostly dependent on a proper diet, with exercise playing a small role (Healthcare Triage). There’s also apparently some risk that people who exercise will “reward” themselves with treats that have significantly more calories than they burned while working out.
 
+## Learning
+* Don't learn through random blogs. Dive deep using courses and textbooks.
+
 ## Finances
-Use Mint (or similar) for personal finance, as it’ll intelligently categorize transactions and track your budgets.
-Happiness increases with money until you’re making ~$70-80k (i.e. around where money stops becoming a stress factor and you can live “comfortably”) and then having more money has little impact. However, what you spend the money on can impact your happiness: favor 1) giving charitably, 2) buying experiences instead of possessions, and 3) use money to free up your time so you can do more of the things you enjoy. (Sources: ?)
+* Use Mint (or similar) for personal finance, as it’ll intelligently categorize transactions and track your budgets.
+* Happiness increases with money until you’re making ~$70-80k (i.e. around where money stops becoming a stress factor and you can live “comfortably”) and then having more money has little impact. However, what you spend the money on can impact your happiness: favor 1) giving charitably, 2) buying experiences instead of possessions, and 3) use money to free up your time so you can do more of the things you enjoy. (Sources: ?)
 
 ## Professional/Career
-Keep an open network; 90% of your random meetings will be a waste, but the other 10% will make up for it ([Sam Altman’s blog](http://blog.samaltman.com/productivity)).
+* Keep an open network; 90% of your random meetings will be a waste, but the other 10% will make up for it ([Sam Altman’s blog](http://blog.samaltman.com/productivity)).
 
 ## Meetings
-Run meetings using the Jeff Bezos technique of having participants write up their thoughts beforehand and comment on each others’ write-ups; takes some time, but results in well-fleshed-out ideas and very efficient decision-making.
-“Most meetings are best scheduled for 15-20 minutes, or 2 hours. The default of 1 hour is usually wrong, and leads to a lot of wasted time.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
+* Run meetings using the Jeff Bezos technique of having participants write up their thoughts beforehand and comment on each others’ write-ups; takes some time, but results in well-fleshed-out ideas and very efficient decision-making.
+* “Most meetings are best scheduled for 15-20 minutes, or 2 hours. The default of 1 hour is usually wrong, and leads to a lot of wasted time.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
 
 ## Misc processes/tools
-Learn through online courses and textbooks instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
-Use f.lux to reduce blue light from your computer screen to reduce eye strain and help you fall asleep easier.
-Use Pocket (or similar) for easier bookmarking of webpages.
-Inventory your belongings and use your annoyance at its length to throw things away and induce minimalism.
-Subscribe to newsletters instead of browsing aimlessly - I put out my own, but I recommend The Morning Brew for daily industry/financial news, Hacker News Digest to see what the community’s discussing, MIT Technology Review for misc tech, and AIDL Weekly + Import AI for AI/machine learning.
+* Learn through online courses and textbooks instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
+* Use f.lux to reduce blue light from your computer screen to reduce eye strain and help you fall asleep easier.
+* Use Pocket (or similar) for easier bookmarking of webpages.
+* Inventory your belongings and use your annoyance at its length to throw things away and induce minimalism.
+* Subscribe to newsletters instead of browsing aimlessly - I put out my own, but I recommend The Morning Brew for daily industry/financial news, Hacker News Digest to see what the community’s discussing, MIT Technology Review for misc tech, and AIDL Weekly + Import AI for AI/machine learning.
 
 # Other
 ## What I'm looking for/trying next
-Simple things
-More better newsletters: contenders include FirstFt from Financial Times, ZeroHedge, Frontrunning, Levine on Wall Street, Quartz, WSJ
-Full spectrum LED light apparently gives great benefits from 10-15 minutes of use in the morning, perhaps this one ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
-Tools
-Internet history search: perhaps History Search
-To-do list schemes: Workflowy
-Internet knowledge annotation: WorldBrain’s Memex
-A Virtual Assistant (e.g. Fin Personal Assistant) to automate scheduling meetings, finding restaurants, booking plane tickets, etc.
-Keyboard-based browser: qutebrowser
-Password manager
-Better shell: maybe Z-shell
-Scripting all Mac settings and apps: using Homebrew. Allows for a simple automated install on a new computer
-Big ideas
-A search engine for your personal knowledge graph, connecting information sources with your written takeaways and facilitating consolidation, exploration, and synthesis.
-A project management organization system capable of efficiently tracking design/requirements changes: Mostly I’ve found that people always start with a design doc, and then 1) create whole new versions of the design doc every time there’s a change (such that the history is intact but it’s tough to track changes in a feature over time), 2) appending changes to the end (more concise and trackable, but makes evaluating any given state annoying), or 3) use JIRA (easy to track individual issues, but difficult to synthesize from)
+* Simple things
+  * More better newsletters: contenders include FirstFt from Financial Times, ZeroHedge, Frontrunning, Levine on Wall Street, Quartz, WSJ
+  * Full spectrum LED light apparently gives great benefits from 10-15 minutes of use in the morning, perhaps this one ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
+* Tools
+  * Internet history search: perhaps History Search
+  * To-do list schemes: Workflowy
+  * Internet knowledge annotation: WorldBrain’s Memex
+  * A Virtual Assistant (e.g. Fin Personal Assistant) to automate scheduling meetings, finding restaurants, booking plane tickets, etc.
+  * Keyboard-based browser: qutebrowser
+  * Password manager
+  * Better shell: maybe Z-shell
+  * Scripting all Mac settings and apps: using Homebrew. Allows for a simple automated install on a new computer
+* Big ideas
+  * A search engine for your personal knowledge graph, connecting information sources with your written takeaways and facilitating consolidation, exploration, and synthesis.
+  * A project management organization system capable of efficiently tracking design/requirements changes: Mostly I’ve found that people always start with a design doc, and then 1) create whole new versions of the design doc every time there’s a change (such that the history is intact but it’s tough to track changes in a feature over time), 2) appending changes to the end (more concise and trackable, but makes evaluating any given state annoying), or 3) use JIRA (easy to track individual issues, but difficult to synthesize from)
 
 ## What I've tried that doesn't work
-Nutrition:
-Intermittent fasting while also doing intense daily exercise: too little energy
-Newsletters:
-The Skimm for daily news: a little fluffy/superficial, and mostly a subset of The Morning Brew
-O’Reilly Newsletters: mostly too basic to be useful
+* Nutrition:
+  * Intermittent fasting while also doing intense daily exercise: too little energy
+* Newsletters:
+  * The Skimm for daily news: a little fluffy/superficial, and mostly a subset of The Morning Brew
+  * O’Reilly Newsletters: mostly too basic to be useful
 
