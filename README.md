@@ -46,7 +46,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Exercise**: 30 minutes of light cardio or weight training 5 times per week, enough to elevate heart rate, is enough to get all of the long-term health benefits, which are considerably large ([Healthcare Triage](https://www.youtube.com/watch?v=SFBBjynBpSw)). Also interesting: weight loss is mostly dependent on a proper diet, with exercise playing a small role ([Healthcare Triage](https://www.youtube.com/watch?v=fCtn4Ap8kDM)). There’s also apparently some risk that people who exercise will “reward” themselves with treats that have significantly more calories than they burned while working out.
 
 ## Learning
-* **Learn through online courses and (the best textbooks](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject)** instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
+* **Learn through online courses and [the best textbooks](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject)** instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
 
 ## Finances
 * **Use an automated budgeting tool** (Mint or similar) for personal finance, as it’ll intelligently categorize transactions and track your budgets.
