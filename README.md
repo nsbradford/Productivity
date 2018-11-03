@@ -79,6 +79,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * **Password manager**: maybe 1Password
   * **Better shell**: maybe Z-shell
   * **Scripting all Mac settings and apps**: using Homebrew. Allows for a simple automated install on a new computer
+  * **[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)** for custom web site styling
 * **Big ideas**
   * **A search engine for your personal knowledge graph**, connecting information sources with your written takeaways and facilitating consolidation, exploration, and synthesis.
   * **A project management organization system capable of efficiently tracking design/requirements changes**: Mostly I’ve found that people always start with a design doc, and then 1) create whole new versions of the design doc every time there’s a change (such that the history is intact but it’s tough to track changes in a feature over time), 2) appending changes to the end (more concise and trackable, but makes evaluating any given state annoying), or 3) use JIRA (easy to track individual issues, but difficult to synthesize from)
