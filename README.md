@@ -78,6 +78,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * **Keyboard-based browser**: qutebrowser
   * **Password manager**: maybe 1Password
   * **Better shell**: maybe Z-shell
+  * **tmux**: see this [gentle intro](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340?gi=a2db06c99825)
   * **Scripting all Mac settings and apps**: using Homebrew. Allows for a simple automated install on a new computer
   * **[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)** for custom web site styling
 * **Big ideas**
