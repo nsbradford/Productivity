@@ -93,7 +93,6 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 ## What I'm looking for/trying next
 * **Simple things**
   * **More better newsletters**: contenders include FirstFt from Financial Times, ZeroHedge, Frontrunning, Levine on Wall Street, Quartz, WSJ
-  * **Full spectrum LED light** apparently gives great benefits from 10-15 minutes of use in the morning ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
 * **Tools**
   * **Internet history search**: perhaps [History Search](https://historysearch.com)
   * **To-do list schemes**: [Workflowy](https://workflowy.com/)
@@ -108,6 +107,9 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Big ideas**
   * **A search engine for your personal knowledge graph**, connecting information sources with your written takeaways and facilitating consolidation, exploration, and synthesis.
   * **A project management organization system capable of efficiently tracking design/requirements changes**: Mostly I’ve found that people always start with a design doc, and then 1) create whole new versions of the design doc every time there’s a change (such that the history is intact but it’s tough to track changes in a feature over time), 2) appending changes to the end (more concise and trackable, but makes evaluating any given state annoying), or 3) use JIRA (easy to track individual issues, but difficult to synthesize from)
+  
+## What I'm currently experimenting with
+* **Full spectrum LED light** apparently gives great benefits from 10-15 minutes of use in the morning ([Sam Altman’s blog](http://blog.samaltman.com/productivity)). After a few months of using on weekends I've definitely noticed an immediate and positive "buzz" sensation, TBD on whether it becomes life-changing over the dark winter months.
 
 ## What I've tried that doesn't work
 * Nutrition:
