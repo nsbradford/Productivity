@@ -128,5 +128,5 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * O’Reilly Newsletters: mostly too basic to be useful
 
 
-### Disclaimer
-This
+## Disclaimer
+Views expressed here are my own and not representative of any past or present affiliated entity.
