@@ -5,6 +5,21 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **A collection of ideas regarding productivity**, varying in level from abstract to detailed, and varying in supporting evidence from personal intuition to scientific study.
 * This document is continuously updating.
 
+## Contents
+
+* [General Thoughts](#general-thoughts)
+* [Goals](#goals)
+* [Focus](#focus)
+* [Organization](#organization)
+* [Prioritization/Time Management](#prioritizationtime-management)
+* [Health](#health)
+* [Learning](#learning)
+* [Finances](#finances)
+* [Professional/Career](#professionalcareer)
+* [Meetings](#meetings)
+* [Misc processes/tools](#misc-processestools)
+* [Other](#other)
+
 ## General Thoughts
 * **Motivation** is at the root of productivity, and it comes from 1) having strongly defined goals, and 2) knowing the consequences if your worst flaws are left unchecked.
 * **Habits** are compoundable programs for self-automation. Habits and routine are positive.
