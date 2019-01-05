@@ -9,7 +9,10 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Motivation** is at the root of productivity, and it comes from 1) having strongly defined goals, and 2) knowing the consequences if your worst flaws are left unchecked.
 * **Habits** are compoundable programs for self-automation. Habits and routine are positive.
 * **You’ll have to bargain with yourself** if you want any chance of following your plans.
-* **Favor assertiveness over open-mindedness** lest you die of analysis paralysis. “The most impressive people I know have strong beliefs about the world, which is rare in the general population. If you find yourself always agreeing with whomever you last spoke with, that’s bad.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
+* **Favor assertiveness over open-mindedness** lest you die of analysis paralysis. 
+  * “The most impressive people I know have strong beliefs about the world, which is rare in the general population. If you find yourself always agreeing with whomever you last spoke with, that’s bad.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
+  * “What important thing do you believe that most people disagree with you on?” - Peter Thiel interview question.
+  * “The consensus is built into the price.” - Ray Dalio on markets.
 * **Write what you learn down as [principles](https://www.principles.com/)** which you can share and discuss with other people; they can in turn rip you apart and spur you to improve (i.e. this page).
 
 ## Goals
@@ -76,6 +79,10 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 
 ## Finances
 * **Use an automated budgeting tool** (Mint or similar) for personal finance, as it’ll intelligently categorize transactions and track your budgets.
+* **Spending**: advice from misc sources recommend rent spending of <30% gross income, groceries spending of $200-400/month, clothing spending of <5% net income.
+* **Saving**: You'll want enough liquid money to cover at least 3 months of expenses (i.e. checking account), the rest in investments (take as much advantage as possible from tax breaks via retirement accounts). As you increase income, increase the % you save (keep some -e.g. 50%- to increas standard of living).
+* **Investments** (this is what I do, and does not in any way constitute advice): if you only pick one book, use A Random Walk Down Wall Street by Burton Malkiel (TL;DR don't bother with alpha, use total-market funds to diversify across companies and economies).
+  * Note that Robo-advisers suffer from the terror of [compound fees](https://medium.com/@blakeross/wealthfront-silicon-valley-tech-at-wall-street-prices-fdd2e5f54905)
 * Happiness increases with money until you’re making ~$70-80k (i.e. around where money stops becoming a stress factor and you can live “comfortably”) and then having more money has little impact. However, what you spend the money on can impact your happiness: favor 1) giving charitably, 2) buying experiences instead of possessions, and 3) **use money to free up your time** so you can do more of the things you enjoy. (Sources: ?)
 
 ## Professional/Career
@@ -89,7 +96,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Use f.lux to reduce blue light from your computer screen** to reduce eye strain and help you fall asleep easier.
 * **Use Pocket (or similar) for easier bookmarking** of webpages.
 * **Inventory your belongings** and use your annoyance at its length to throw things away and induce minimalism.
-* **Subscribe to newsletters** instead of browsing aimlessly - I put out [my own](https://tinyletter.com/tech-ingester), but I recommend [The Morning Brew](https://www.morningbrew.com/?kid=94ccfe) for daily industry/financial news, [Hacker News Digest](https://www.hndigest.com/) to see what the community’s discussing, [MIT Technology Review](https://www.technologyreview.com/newsletters/) for misc tech, and [AIDL Weekly](http://aidl.io/) + [Import AI](https://jack-clark.net/about/) for AI/machine learning.
+* **Subscribe to newsletters** instead of browsing aimlessly - I put out [my own](https://tinyletter.com/tech-ingester), but I recommend [The Morning Brew](https://www.morningbrew.com/?kid=94ccfe) for daily industry/financial news, [Hacker News Digest](https://www.hndigest.com/) to see what the community’s discussing, [MIT Technology Review](https://www.technologyreview.com/newsletters/) for misc tech, [AIDL Weekly](http://aidl.io/) and [Import AI](https://jack-clark.net/about/) for AI/machine learning, and [Benedict Evans'](https://www.ben-evans.com/newsletter/) for a good misc round-up.
 
 # Other
 ## What I'm looking for/trying next
@@ -120,3 +127,6 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * The Skimm for daily news: a little fluffy/superficial, and mostly a subset of The Morning Brew
   * O’Reilly Newsletters: mostly too basic to be useful
 
+
+### Disclaimer
+This
