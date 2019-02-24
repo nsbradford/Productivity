@@ -48,9 +48,11 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * **New Music**: new songs I find go in a central "New" playlist which is what I primarily listen to. After getting bored of a song, I decide to either remove it from the library, or to add it to a Core playlist and one or more Duplicate playlists.
   * I use Spotify Premium for its discovery features and integrations.
 * **Filesystem organization**
+  * (Turns out that this is extremely similar to Stephen Wolfram's system - see [Leading the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/))
   * **Put everything in the Cloud** (Google Drive or similar) and enjoy instant access to everything, everywhere - surprisingly handy. Keep everything digital instead of physical.
   * **Securely encrypt sensitive files**; macOS makes this easy with encrypted Sparse Bundled Disk Images that you can create with Disk Utility.
-  * **Directory structure**: here's the general structure I use. Note that I use "Archive" folders in various places to separate things that I'm not actively working on.
+  * **Keep the major directories very general** and only have a few, maybe 3-6, at each level - this makes it much easier to figure out where you categorized things.
+  * **Directory structure**: here's the general structure I use. Note that I use "Archive" folders in various places to separate things that I'm not actively working on 
 ```
    ~/Documents
       /dev
@@ -131,6 +133,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * **[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)** for custom web site styling
 * **Big ideas**
   * **A search engine for your personal knowledge graph**, connecting information sources with your written takeaways and facilitating consolidation, exploration, and synthesis.
+    * Note that this is a big component of Stephen Wolfram's [Leading the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/); he more specifically includes a Personal CRM (database of contacts with geo-location, skills, affiliations, etc) and MetaSearcher (integrated text search over filesystem, emails, digitized and OCRd old physical documents, and everything else - and comes with some built in aggregators).
   * **A project management organization system capable of efficiently tracking design/requirements changes**: Mostly I’ve found that people always start with a design doc, and then 1) create whole new versions of the design doc every time there’s a change (such that the history is intact but it’s tough to track changes in a feature over time), 2) appending changes to the end (more concise and trackable, but makes evaluating any given state annoying), or 3) use JIRA (easy to track individual issues, but difficult to synthesize from)
   
 ## What I'm currently experimenting with
