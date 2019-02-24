@@ -126,7 +126,6 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * **Internet knowledge annotation**: [WorldBrain’s Memex](https://worldbrain.io/)
   * **A Virtual Assistant** (e.g. [Fin Personal Assistant](https://www.fin.com)) to automate scheduling meetings, finding restaurants, booking plane tickets, etc.
   * **Keyboard-based browser**: qutebrowser
-  * **Password manager**: maybe 1Password
   * **Better shell**: maybe Z-shell
   * **tmux**: see this [gentle intro](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340?gi=a2db06c99825)
   * **Scripting all Mac settings and apps**: using Homebrew. Allows for a simple automated install on a new computer
@@ -138,6 +137,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   
 ## What I'm currently experimenting with
 * **Full spectrum LED light** apparently gives great benefits from 10-15 minutes of use in the morning ([Sam Altman’s blog](http://blog.samaltman.com/productivity)). After a few months of using on weekends I've definitely noticed an immediate and positive "buzz" sensation, TBD on whether it becomes life-changing over the dark winter months.
+* **Password manager**: 1Password has worked extremely well for me so far (since Fall 2018). Downside is that mobile use feels significantly more clunky than desktop. Also, it feels like you should at least still memorize your email and bank account passwords.
 
 ## What I've tried that doesn't work
 * Nutrition:
