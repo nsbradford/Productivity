@@ -47,6 +47,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Music Playlist Organization**: This I'm less certain about, but have had a fairly stable routine for ~3 years: Have a small set of "Core" genre playlists (Rock, Pop, Rap, Classical, Jazz...) which are MECE (mutually exclusive collectively exhaustive), and a large set of "Duplicate" playlists by application (Workout, Fancy Dinner, Chill Pregame, Party...).
   * **New Music**: new songs I find go in a central "New" playlist which is what I primarily listen to. After getting bored of a song, I decide to either remove it from the library, or to add it to a Core playlist and one or more Duplicate playlists.
   * I use Spotify Premium for its discovery features and integrations.
+* **Password manager**: 1Password has worked extremely well for me so far (since Fall 2018). Downside is that mobile use feels significantly more clunky than desktop. Also, it feels like you should at least still memorize your email and bank account passwords.
 * **Filesystem organization**
   * (Turns out that this is extremely similar to Stephen Wolfram's system - see [Leading the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/))
   * **Put everything in the Cloud** (Google Drive or similar) and enjoy instant access to everything, everywhere - surprisingly handy. Keep everything digital instead of physical.
@@ -137,11 +138,11 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   
 ## What I'm currently experimenting with
 * **Full spectrum LED light** apparently gives great benefits from 10-15 minutes of use in the morning ([Sam Altman’s blog](http://blog.samaltman.com/productivity)). After a few months of using on weekends I've definitely noticed an immediate and positive "buzz" sensation, TBD on whether it becomes life-changing over the dark winter months.
-* **Password manager**: 1Password has worked extremely well for me so far (since Fall 2018). Downside is that mobile use feels significantly more clunky than desktop. Also, it feels like you should at least still memorize your email and bank account passwords.
+
 
 ## What I've tried that doesn't work
 * Nutrition:
-  * Intermittent fasting while also doing intense daily exercise: too little energy
+  * Intermittent fasting while also doing intense daily exercise: too little energy in mornings, I find i need 1-200 calories at least (preferably high in protein).
 * Newsletters:
   * The Skimm for daily news: a little fluffy/superficial, and mostly a subset of The Morning Brew
   * O’Reilly Newsletters: mostly too basic to be useful
