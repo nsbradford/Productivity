@@ -96,13 +96,16 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Learn through online courses and [the best textbooks](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject)** instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
 
 ## Finances
+* **Money and Happiness** [(80,000 Hours)](https://80000hours.org/articles/money-and-happiness/)
+  * Moment-to-moment "happiness" increases with money until you’re making ~$70-80k (i.e. around where money stops becoming a stress factor and you can live “comfortably”) and then having more money has little impact. 
+    * Interestingly, **"life satisfaction" keeps going up as you make more money** - and the ceiling is unclear.
+  * What you spend the money on can impact your happiness: favor 1) giving charitably, 2) buying experiences instead of possessions, and 3) **use money to free up your time** so you can do more of the things you enjoy.
 * **Use an automated budgeting tool** (Mint or similar) for personal finance, as it’ll intelligently categorize transactions and track your budgets.
-* **Spending**: advice from misc sources recommend rent spending of <30% gross income, groceries spending of $200-400/month, clothing spending of <5% net income.
-* **Saving**: You'll want enough liquid money to cover at least 3 months of expenses (i.e. checking account), the rest in investments (take as much advantage as possible from tax breaks via retirement accounts). As you increase income, increase the % you save (keep some -e.g. 50%- to increas standard of living).
-* **Investments** (this is what I do, and does not in any way constitute advice): if you only pick one book, use A Random Walk Down Wall Street by Burton Malkiel (TL;DR don't bother with alpha, use total-market funds to diversify across companies and economies).
-  * I use low-cost ETFs to get broad exposure to US Total Market, Developed Ex-US, Emerging Markets ex-China, and China (separated out to have more control over weighting).
-  * Note that Robo-advisers suffer from the terror of [compound fees](https://medium.com/@blakeross/wealthfront-silicon-valley-tech-at-wall-street-prices-fdd2e5f54905)
-* Happiness increases with money until you’re making ~$70-80k (i.e. around where money stops becoming a stress factor and you can live “comfortably”) and then having more money has little impact. However, what you spend the money on can impact your happiness: favor 1) giving charitably, 2) buying experiences instead of possessions, and 3) **use money to free up your time** so you can do more of the things you enjoy [(80,000 Hours)](https://80000hours.org/articles/money-and-happiness/).
+  * **Spending**: advice from misc sources recommend rent spending of <30% gross income, groceries spending of $200-400/month, clothing spending of <5% net income.
+  * **Saving**: You'll want enough cash to cover at least 3 months of expenses (i.e. checking account), the rest in investments (take as much advantage as possible from tax breaks via retirement accounts). As you increase income, increase the % you save (keep some -e.g. 50%- to increase standard of living).
+  * **Investments** (does not in any way constitute advice): if you only pick one book, use *A Random Walk Down Wall Street* by Burton Malkiel, summarized as: don't bother with alpha/trying to beat the market, use total-market funds to diversify across companies, and across countries (["Geographic Diversification Can Be a Lifesaver"](https://www.bridgewater.com/research-library/daily-observations/geographic-diversification-can-be-a-lifesaver/)).
+    * Note that Robo-advisers suffer from the terror of [compound fees](https://medium.com/@blakeross/wealthfront-silicon-valley-tech-at-wall-street-prices-fdd2e5f54905)
+    * I automate my investments using [Quantopian](https://www.quantopian.com/) with [Robinhood](https://robinhood.com/) which more or less gets you a Robo-advisor for free, albeit a somewhat sketchy/fragile one (looking for alternatives).
 
 ## Professional/Career
 * Keep an open network; 90% of your random meetings will be a waste, but the other 10% will make up for it ([Sam Altman’s blog](http://blog.samaltman.com/productivity)).
@@ -119,8 +122,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 
 # Other
 ## What I'm looking for/trying next
-* **Simple things**
-  * **More better newsletters**: contenders include FirstFt from Financial Times, ZeroHedge, Frontrunning, Levine on Wall Street, Quartz, WSJ
+
 * **Tools**
   * **Internet history search**: perhaps [History Search](https://historysearch.com)
   * **To-do list schemes**: [Workflowy](https://workflowy.com/)
@@ -131,6 +133,8 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
   * **tmux**: see this [gentle intro](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340?gi=a2db06c99825)
   * **Scripting all Mac settings and apps**: using Homebrew. Allows for a simple automated install on a new computer
   * **[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)** for custom web site styling
+* **Simple things**
+  * **More better newsletters**: contenders include FirstFt from Financial Times, ZeroHedge, Frontrunning, Levine on Wall Street, Quartz, WSJ
 * **Big ideas**
   * **A search engine for your personal knowledge graph**, connecting information sources with your written takeaways and facilitating consolidation, exploration, and synthesis.
     * Note that this is a big component of Stephen Wolfram's [Leading the Productive Life](https://blog.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/); he more specifically includes a Personal CRM (database of contacts with geo-location, skills, affiliations, etc) and MetaSearcher (integrated text search over filesystem, emails, digitized and OCRd old physical documents, and everything else - and comes with some built in aggregators).
