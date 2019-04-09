@@ -41,7 +41,9 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 
 ## Focus
 * **Distraction is the enemy of the creator/engineer**: see Maker's Schedule, Manager's Schedule ([Paul Graham's Blog](http://www.paulgraham.com/makersschedule.html)). Make sure to defend your time and regularly engage in long periods of [Deep Work](http://calnewport.com/books/deep-work/) ([book summary](https://paulminors.com/deep-work-cal-newport-book-summary-pdf/)). There are a few specific implementations such as the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), in which you use a [timer](https://tomato-timer.com/) to set a distraction-free block for 25-55 minutes followed by a 5-10 minute break/reward.
-  * Apparently [Pinterest](https://medium.com/@Pinterest_Engineering/three-day-no-meeting-schedule-for-engineers-fca9f857a567) has tried this with great success.
+  * Apparently [Pinterest](https://medium.com/@Pinterest_Engineering/three-day-no-meeting-schedule-for-engineers-fca9f857a567) has tried company-wide Deep Work with great success.
+* **Flow** (being "in the zone" - when you're fully immersed in a feeling of energized focus, involvement, and enjoyment) is an objective for many people (many engineers try to get into flow as much as possible), but keep it mind the risks: when in Flow you tend to lose sight of the goals, and can easily wind up solving a bunch of problems you don't have.
+* **Resist constant stimulation**: your subconscious is actually quite good at solving problems with a large amount of white space/complexity/different pieces of info that you need to tie together (as opposed to your conscious mind being able to do linear processing), but you need to give your subconscious *space* to pop those key ideas into your head. This means don't constantly be in the habit of checking your phone, etc. - let yourself take breaks where you do nothing other than walk around and let your mind wander.
 
 
 ## Prioritization/Time Management
