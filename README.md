@@ -156,7 +156,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **KonMari method**: 
 
 
-## What I've tried that doesn't work
+## What I've tried and didn't like
 * Nutrition:
   * Intermittent fasting while also doing intense daily exercise: too little energy in mornings, I find i need 1-200 calories at least (preferably high in protein).
 * Newsletters:
