@@ -13,6 +13,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * [Prioritization/Time Management](#prioritizationtime-management)
 * [Meetings](#meetings)
 * [Organization](#organization)
+* [Possessions](#possessions)
 * [Health](#health)
 * [Finances](#finances)
 * [Learning](#learning)
@@ -60,11 +61,11 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Run meetings using the [Jeff Bezos technique](https://www.inc.com/justin-bariso/jeff-bezos-knows-how-to-run-a-meeting-here-are-his-three-simple-rules.html)** of having participants write up their thoughts beforehand and comment on each others’ write-ups; takes some time, but results in well-fleshed-out ideas and very efficient decision-making.
 * **“Most meetings are best scheduled for 15-20 minutes, or 2 hours.** The default of 1 hour is usually wrong, and leads to a lot of wasted time.” ([Sam Altman’s blog](http://blog.samaltman.com/productivity))
 
+
 ## Organization
 * **A good test of your organization** is “can I find anything in 30 seconds?”
 * I’ve used a **Recursive Goal Queue** happily since 2014: Organize yourself by highest-level goals (e.g. Work, Education, Finances, Friends, Philanthropy...). Then create two lists: a "TO-DO" a priority-queue backlog for each category that can grow arbitrarily large, and an "Agenda" which contains the top items in each category. Add to the TO-DO at will. Read over the Agenda every day to focus what you need to do; whenever you complete something, pop an item from that category's TO-DO queue and add it to the Agenda. Starter template [here](https://docs.google.com/document/d/1oCi1DPtzGXrCs-bocLy1y1qiuINj1DtqEbB_mcFgb00/edit?usp=sharing).
 * In general, try a Kanban Board tool such as Trello for any number of different types of to-do lists. The [Getting Things Done](https://gettingthingsdone.com/) methodology (see [blog](https://hamberg.no/gtd/) and [TED Talk](https://www.youtube.com/watch?v=CHxhjDPKfbY)) requires a fair amount of overhead but scales well. Simply setting 1-3 Big Goals for the day can give you focus and a proper sense of accomplishment (see [The Productivity Project](https://alifeofproductivity.com/book/)). A written to-do list for each day is easy to maintain. Make sure that even while in flow you are linking every task back to your high-level goal.
-* **Inventory your belongings** and use your annoyance at its length to throw things away and induce minimalism.
 * **Music Playlist Organization**: This I'm less certain about, but have had a fairly stable routine for ~3 years: Have a small set of "Core" genre playlists (Rock, Pop, Rap, Classical, Jazz...) which are MECE (mutually exclusive collectively exhaustive), and a large set of "Duplicate" playlists by application (Workout, Fancy Dinner, Chill Pregame, Party...).
   * **New Music**: new songs I find go in a central "New" playlist which is what I primarily listen to. After getting bored of a song, I decide to either remove it from the library, or to add it to a Core playlist and one or more Duplicate playlists.
   * I use Spotify Premium for its discovery features and integrations.
@@ -95,6 +96,13 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
         /Projects
         /Work
 ```
+
+## Possessions
+* **Minimalism** is great. You need less than you think.
+  * **Inventory your belongings** and use your annoyance at its length to throw things away and induce minimalism.
+* **Tidying Up** (ft. Marie Kondo): Tidy up all at once, not a bit at a time. Discard first, organize later. Dump all items together in one place, take each one in your hand, and ask "does it spark joy?" Because your emotions are the judge, you won't rebound.
+  * Every item needs a spot; make them intuitive to store by grouping similar things; no need to for flow plans or frequency of use.
+  * Fold, don't hang or tie. Fold with light creases into rectangles, arranged so that they are all visible (vertical instead of stacked). When hanging, arrange so they rise to the right (long jackets to the left). Don't save clothes for "loungewear". Don't store off-season clothes, just arrange into cotton-like and wool-like. You won't re-read most of your books. Don't cheat by storing in your parent's house. 
 
 
 ## Health
