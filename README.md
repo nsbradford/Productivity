@@ -170,6 +170,8 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * Newsletters:
   * The Skimm for daily news: a little fluffy/superficial, and mostly a subset of The Morning Brew
   * O’Reilly Newsletters: mostly too basic to be useful
+* Productivity Apps:
+  * [Streaks](https://streaksapp.com/): supposed to gamify habit-forming, but wasn't able to find a good way to get effective notifications because in practice you need the reminders in-the-moment, not at random times throughout the day.
 
 
 ## Disclaimer
