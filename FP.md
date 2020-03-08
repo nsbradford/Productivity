@@ -1,8 +1,20 @@
 # Functional Programming is Easy, Practical, and Fun.
 
-Many newcomers to Functional Programming (FP) are turned away by feelings that it is overly complicated and academic but not practical. This goal of this doc is to show that FP is easy, practical and fun by motivating a few simple problems and how they tie well to FP concepts. We'll be using Scala in these examples.
+Many newcomers to Functional Programming (FP) are turned away by feelings that it is overly complicated and academic but not practical. This goal of this doc is to show that FP is easy, practical and fun by motivating a few simple problems and how they tie well to FP concepts. In particular, we'll cover:
+
+* Data vs Functional extensibility
+* ad-hoc polymorphism with typeclasses
+* Independent computations with Applicatives
+* Dependent computations with Monads (yes, we're going to explain Monads and it'll be super easy!)
+* Folding and Reducing
+* Inversions with Traverse
+* Teasers: Purely functional State and DSLs
+* Further reading and acknowledgements
+
+Although we'll be using Scala in these examples, we'll mostly gloss over the implementation details because they're just there to make these abstractions a bit more concrete. Once you're able to name the FP solutions to solve these various types of problems, it's easy to just look up the docs for the specific thing you need referenced - you want to memorize the interface, not the implementation.
 
 ## OO vs. FP: Extending Data vs. Functionality
+At the highest level: what does functional programming offer?
 
 ## Ad-hoc polymorphism with Typeclasses
 You're probably familiar with [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) through subtyping, which is fairly intuitive. For example, a class `Animal` can have subclasses `Cat` and `Dog`. If `Animal` has a function `eat()`, you know both `Cat` and `Dog` "inherit" the `eat()` method, but can have different implementations.
