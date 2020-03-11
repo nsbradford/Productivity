@@ -195,10 +195,29 @@ Finally we have `Monad`, which allows you to dynamically choose your path
 (insert link)
 
 ### Folding and Reducing
-
 #### Monoid
+Ever find yourself wanting to express values that can "combine" - String concatenation, List concatenation, Integer addition, time series sums? Enter `Monoid`:
+
+```scala
+trait Monoid[A] {
+  def combine(x: A, y: A): A
+  def empty: A
+}
+
+val map1 = Map("a" -> 1, "b" -> 2)
+val map2 = Map("b" -> 3, "d" -> 4)
+
+map1 |+| map2 // uses `combine` on the values of the map
+// res3: Map[String,Int] = Map(b -> 5, d -> 4, a -> 1)
+```
 
 #### Fold
+Ever find yourself doing a fold over  Cats has lots of helpers to make that easier, including the simple `fold[A : Monoid](fa : F[A]): A` which cuts out your boilerplate if the values are a `Monoid`:
+
+```scala
+List("a", "b", "c").fold // equivalent to Foldable[List].fold(List("a", "b", "c"))
+// res0: String = abc
+```
 
 ### Inversions with Traverse
 Ever want to "invert" a collection and find yourself writing a long, annoying `fold` of some kind?
