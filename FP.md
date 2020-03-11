@@ -67,16 +67,16 @@ import cats.implicits._
 ```
 
 ### Ad-hoc polymorphism with Typeclasses
-You're probably familiar with [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) through subtyping, which is fairly intuitive. For example, a class `Animal` can have subclasses `Cat` and `Dog`. If `Animal` has a function `eat()`, you know both `Cat` and `Dog` "inherit" the `eat()` method, but can have different implementations.
+You're probably familiar with [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) through subtyping, which is fairly intuitive. For example, a class `Animal` can have subclasses `Cat` and `Dog`. If `Animal` has a function `noise()`, you know both `Cat` and `Dog` "inherit" the `noise()` method, but can have different implementations.
 
 ```scala
-trait Animal{ // think of "trait" like "interface"
-  def eat(): Unit // "Unit" is the type of "()" in Scala, which is analagous to "void" in Java.
+abstract class Animal{
+  def noise(): String
 }
 class Dog extends Animal {...}
 class Cat extends Animal {...}
 
-def foo(animal: Animal): Unit = animal.eat() // cat or dog? who knows!
+def foo(animal: Animal): String = animal.noise() // cat or dog? who knows!
 
 ```
 
@@ -85,8 +85,7 @@ Now let's say you want to **add new functionality** in a very general way; for e
 If only there was a way to **decouple the model from the functionality**. Enter typeclasses, where instead of inheriting functionality, you provide "evidence" so the compiler can "prove" things are `JsonWritable` (later we'll see that this is very powerful, and allows you to auto-generate proofs on the fly):
 
 ```scala
-// TODO(nick.bradford) use simalacrum here to eliminate some boilerplate?
-trait JsonWritable[T]{
+trait JsonWritable[T]{ // think of "trait" like "interface"
   def toJson: JsonBlob
 }
 
@@ -96,15 +95,25 @@ implicit object JsonWritableString extends JsonWritable[String]{
   override def toJson: JsonBlob = {...}
 }
 
+// boilerplate implicit class adds extra methods to `String`
+// without editing String source definition
+implicit class RichString(s: String){
+  def toJson(implicit ev: JsonWritable[String]): JsonBlob
+}
+
+// phew! now onto using what we've built...
+
 // this is a shorthand way to tell the compiler to look for "evidence" that T is JsonWritable.
 def writeToDb[T : JsonWritable](writable: T, db: SomeDatabase): Unit = {
-    
+  db.serializeJson(writable.toJson) //
 }
 
 writeToDb("hello world") // compiles fine
 writeToDb(123) // compiler error: can't prove 123 is JsonWritable
 
 ```
+
+Now, let's introduce you to some of our favorite typeclasses...
 
 #### Functors
 A functor is anything you can `map()` over; think collections such as `List`, `Option`, etc. This is the foundation of our cool control-flow typeclasses.
@@ -116,6 +125,8 @@ trait Functor[F[_]] {
 
 def stringifyAnyInternal[F[_] : Functor](xs: F[Double]): F[String] = xs.map(_.toString)
 ```
+
+See, that wasn't so hard, was it? Everyone loves a good `map`.
 
 ### Independent Computations with Applicatives
 Ever have independent computations in `F[_]` you want to express succinctly, making their independence clear?
