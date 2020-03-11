@@ -115,7 +115,7 @@ writeToDb(123) // compiler error: can't prove 123 is JsonWritable
 
 Now, let's introduce you to some of our favorite typeclasses...
 
-#### Functors
+### Functors
 A functor is anything you can `map()` over; think collections such as `List`, `Option`, etc. This is the foundation of our cool control-flow typeclasses.
 
 ```scala
@@ -188,9 +188,16 @@ Now we have `Applicative`, which can *combine contexts*, but still is static:
 ```
 (insert link)
 
-Finally we have `Monad`, which allows you to dynamically choose your path
+Finally we have `Monad`, which allows you to dynamically choose your path chaining *additional computations in that context*:
 ```scala
-// TODO insert a recursive function which samples from rand()
+ // TODO tbh i'm still working on this example and my diagram sorry guys
+
+def foo(x: Int): Future[String] = x match {
+  case 0 => Future.success("nothing")
+  case y => Future(readFromDbId(y))
+}
+List(Future(1)).flatMap(foo)
+
 ```
 (insert link)
 
@@ -238,6 +245,7 @@ val numbers2: Try[List[Int]] = numbers.sequence // equivalent to Traverse[List].
 ```
 
 ### Teaser: Purely functional State and DSLs
+I won't get into this. Just a teaser!
 
 ### Further Reading and Acknoweledgements
 
