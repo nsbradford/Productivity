@@ -58,7 +58,13 @@ Imagine you want to add a new `Animal`: a `Shark`. In the OO world, you just add
 These aren't absolutes - multi-paradigm languages (such as Scala) allow you to blur the lines in your modelling decisions. But in summary, the FP modelling style will make it easy to have a lot of varied functionality around a stable set of data models, while the OO modelling style. In my experience, developers tend to change functions more often than the data model.
 
 ## FP Tools and Abstractions (intro)
-The FP world has a rich ecosystem of tools and abstractions, many of which are not confined to Functional programs. 
+The FP world has a rich ecosystem of tools and abstractions, many of which are not confined to Functional programs. Most examples will assume you've imported Cats:
+
+```scala
+import cats._
+import cats.data._
+import cats.implicits._
+```
 
 ### Ad-hoc polymorphism with Typeclasses
 You're probably familiar with [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) through subtyping, which is fairly intuitive. For example, a class `Animal` can have subclasses `Cat` and `Dog`. If `Animal` has a function `eat()`, you know both `Cat` and `Dog` "inherit" the `eat()` method, but can have different implementations.
@@ -129,9 +135,6 @@ If you have a collection `F[G[A]]`, where `F[_]` is a `Traverse` and `G[_]` is a
 trait Traverse[F[_]] { // definition for reference
   def sequence[G[_]: Applicative, B](inputs: F[G[B]]): G[F[B]]
 }
-
-import cats.Traverse
-import cats.implicits._
 
 val numbers: List[Try[Int]] = List(Try(1), Try(2), Try(3))
 val numbers2: Try[List[Int]] = numbers.sequence // equivalent to Traverse[List].sequence(numbers)
