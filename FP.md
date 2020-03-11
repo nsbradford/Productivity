@@ -126,9 +126,8 @@ val numbers2: Try[List[Int]] = ???
 If you have a collection `F[G[A]]`, where `F[_]` is a `Traverse` and `G[_]` is an `Applicative`, you can invert the collections in one line!
 
 ```scala
-trait Traverse[F[_]] {
-  def sequence[G[_]: Applicative, B]
-      (inputs: F[G[B]]): G[F[B]]
+trait Traverse[F[_]] { // definition for reference
+  def sequence[G[_]: Applicative, B](inputs: F[G[B]]): G[F[B]]
 }
 
 import cats.Traverse
