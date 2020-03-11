@@ -112,9 +112,55 @@ writeToDb(123) // compiler error: can't prove 123 is JsonWritable
 
 #### Functors
 
-### Independent Computations with Applicatives
-
 ### Dependent Computations with Monads
+
+### Independent Computations with Applicatives
+Ever have independent computations in `F[_]` you want to express succinctly, making their independence clear?
+```scala
+val result: Option[Int] =
+ for {
+   a <- Some(1)
+   b <- Some(2)
+   c <- Some(3)
+  } yield a + b + c
+```
+
+If `F[_]` is an `Applicative`, a slightly weaked `Monad` (every `Monad` is an `Applicative`, but not the other way around), you can do just that:
+
+```scala
+trait Applicative[F[_]] extends Functor[F] { // for reference (simplified)
+  def pure[A](a: A): F[A]
+  def product[A, B](fa: F[A], fb: F[B]): F[(A, B)]
+}
+
+val result: Option[Int] = (Some(1), Some(2), Some(3)).mapN(_ + _ + _)
+```
+
+The intuition is this: `product()` allows you to **combine values in a context**, and if you can combine 2, you can combine arbitrarily many (Cats has lots of boilerplate auto-generated for you, which you see above in `mapN()`). This allows you to model independent computation, particularly useful if you want to, say, accumulate results from all the independent failures, i.e. [cats.Validated](https://typelevel.org/cats/datatypes/validated.html).
+
+#### Intuition: What Functors, Applicatives, and Monads can express
+Here it is: the part where I explain `Monad`. The most intuitive way I can find is by thinking of *computation graphs*; and a `Monad` as *representing a computation context*.
+
+Let's first consider `Functor`, which can express a single *statically defined* graph using `map()`. But you can't combine contexts, and you can't dynamically change the path based on values from a previous step.
+```scala 
+List(1,2,3).map(_ + 1).map(_ * 2)
+```
+(insert link)
+
+Now we have `Applicative`, which can *combine contexts*, but still is static:
+```scala
+( 
+  (Some(1), Some(2)).mapN(_ + _), 
+  Some(1) 
+).mapN(_ + _)
+```
+(insert link)
+
+Finally we have `Monad`, which allows you to dynamically choose your path
+```scala
+// TODO insert a recursive function which samples from rand()
+```
+(insert link)
 
 ### Folding and Reducing
 
@@ -149,5 +195,6 @@ val numbers2: Try[List[Int]] = numbers.sequence // equivalent to Traverse[List].
 * [FP vs OO](https://docs.google.com/document/d/1OvToSVJdEz5YoEfPbquUSfYHVQkYyBpWWS1siTl_g8g/edit#heading=h.76z3gytmdt8l)
 
 #### Ack
+* Monad Tutorial Fallacy: https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/
 * Scala with Cats: https://underscore.io/books/scala-with-cats/
 * Uncle Bob: https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
