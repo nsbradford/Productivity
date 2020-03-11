@@ -117,6 +117,26 @@ writeToDb(123) // compiler error: can't prove 123 is JsonWritable
 #### Fold
 
 ### Inversions with Traverse
+Ever want to "invert" a collection and find yourself writing a long, annoying `fold` of some kind?
+```scala
+val numbers: List[Try[Int]] = List(Try(1), Try(2), Try(3))
+val numbers2: Try[List[Int]] = ???
+```
+
+If you have a collection `F[G[A]]`, where `F[_]` is a `Traverse` and `G[_]` is an `Applicative`, you can invert the collections in one line!
+
+```scala
+trait Traverse[F[_]] {
+  def sequence[G[_]: Applicative, B]
+      (inputs: F[G[B]]): G[F[B]]
+}
+
+import cats.Traverse
+import cats.implicits._
+
+val numbers: List[Try[Int]] = List(Try(1), Try(2), Try(3))
+val numbers2: Try[List[Int]] = numbers.sequence // equivalent to Traverse[List].sequence(numbers)
+```
 
 ### Teaser: Purely functional State and DSLs
 
