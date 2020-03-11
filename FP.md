@@ -195,6 +195,7 @@ val numbers2: Try[List[Int]] = numbers.sequence // equivalent to Traverse[List].
 * [FP vs OO](https://docs.google.com/document/d/1OvToSVJdEz5YoEfPbquUSfYHVQkYyBpWWS1siTl_g8g/edit#heading=h.76z3gytmdt8l)
 
 #### Ack
+* Monads are hard because: https://www.johndcook.com/blog/2014/03/03/monads-are-hard-because/
 * Monad Tutorial Fallacy: https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/
 * Scala with Cats: https://underscore.io/books/scala-with-cats/
 * Uncle Bob: https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
