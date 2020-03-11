@@ -53,7 +53,7 @@ Now, back to adding data vs functionality.
 
 Imagine you want to add a new function `foo` to `Animal`. With FP it's simple, you just add `foo` with your other functions, no need to edit your data model *no matter how much functionality you add*. With OO, it's a bit annoying because you need to edit every node in the `Animal` inheritance tree. (The OO [visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern) is an attempt to solve this problem.)
 
-Imagine you want to add a new `Animal`: a `Shark`. In the OO world, you just add a new `Shark` class, no ned to edit any of the other classes. In the FP world, it's a bit annoying because you have to edit every function's pattern matching to include the new data type.
+Imagine you want to add a new `Animal`: a `Shark`. In the OO world, you just add a new `Shark` class, no need to edit any of the other classes. In the FP world, it's a bit annoying because you have to edit every function's pattern matching to include the new data type.
 
 These aren't absolutes - multi-paradigm languages (such as Scala) allow you to blur the lines in your modelling decisions. But in summary, the FP modelling style will make it easy to have a lot of varied functionality around a stable set of data models, while the OO modelling style. In my experience, developers tend to change functions more often than the data model.
 
