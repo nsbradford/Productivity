@@ -13,10 +13,21 @@ Many newcomers to Functional Programming (FP) are turned away by feelings that i
 
 Although we'll be using Scala in these examples, we'll mostly gloss over the implementation details because they're just there to make these abstractions a bit more concrete. Once you're able to name the FP solutions to solve these various types of problems, it's easy to just look up the docs for the specific thing you need referenced - you want to memorize the interface, not the implementation.
 
-## OO vs. FP: Extending Data vs. Functionality
-At the highest level: what does functional programming offer?
+## OO vs. FP Design
+### What is FP?
+At the highest level: what does functional programming offer? **Referential transparency**, the idea that expressions can always be substituted for values (no side effects; "pure"), is a big part of it because the lack of mutable state means that you can more easily reason about and **compose** (think function composition) large programs. But the key second-order effect of this design choice is...
 
-## Ad-hoc polymorphism with Typeclasses
+### Extending Data vs. Functionality
+...Object-Oriented architectures tend to make Data extension easy, while Functional architectures tend to make Functionality extension easy. 
+
+Consider the our example before (of `Animal` is a `Cat` or `Dog`). In an OO design, the key principle is that *objects encapsulate their behavior*, and the program can be modelled as *message passing between objects*. Everything related to `Dog`s, all functionality, all state, are going into the `Dog` class, which makes lots of intuitive sense. By contrast, in FP you think of *functions operating on data*. The `Dog` class will be *very* light (perhaps modelled with an [algebraic data type](https://en.wikipedia.org/wiki/Algebraic_data_type), but we won't get into that), with the functionality decoupled.
+
+
+
+## FP Tools and Abstractions (intro)
+The FP world has a rich ecosystem of tools and abstractions, many of which are not confined to Functional programs. 
+
+### Ad-hoc polymorphism with Typeclasses
 You're probably familiar with [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) through subtyping, which is fairly intuitive. For example, a class `Animal` can have subclasses `Cat` and `Dog`. If `Animal` has a function `eat()`, you know both `Cat` and `Dog` "inherit" the `eat()` method, but can have different implementations.
 
 ```scala
@@ -60,23 +71,23 @@ writeToDb(123) // compiler error: can't prove 123 is JsonWritable
 
 
 
-### Functors
+#### Functors
 
-## Independent Computations with Applicatives
+### Independent Computations with Applicatives
 
-## Dependent Computations with Monads
+### Dependent Computations with Monads
 
-## Folding and Reducing
+### Folding and Reducing
 
-### Monoid
+#### Monoid
 
-### Fold
+#### Fold
 
-## Inversions with Traverse
+### Inversions with Traverse
 
-## Teaser: Purely functional State and DSLs
+### Teaser: Purely functional State and DSLs
 
-## Further Reading and Acknoweledgements
+### Further Reading and Acknoweledgements
 
 * Scala with Cats: https://underscore.io/books/scala-with-cats/
 * Uncle Bob: https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
