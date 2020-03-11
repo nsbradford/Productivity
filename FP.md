@@ -106,13 +106,16 @@ writeToDb(123) // compiler error: can't prove 123 is JsonWritable
 
 ```
 
-
-
-
-
 #### Functors
+A functor is anything you can `map()` over; think collections such as `List`, `Option`, etc. This is the foundation of our cool control-flow typeclasses.
 
-### Dependent Computations with Monads
+```scala
+trait Functor[F[_]] {
+  def map[A, B](fa: F[A])(f: A => B): F[B]
+}
+
+def stringifyAnyInternal[F[_] : Functor](xs: F[Double]): F[String] = xs.map(_.toString)
+```
 
 ### Independent Computations with Applicatives
 Ever have independent computations in `F[_]` you want to express succinctly, making their independence clear?
@@ -138,8 +141,26 @@ val result: Option[Int] = (Some(1), Some(2), Some(3)).mapN(_ + _ + _)
 
 The intuition is this: `product()` allows you to **combine values in a context**, and if you can combine 2, you can combine arbitrarily many (Cats has lots of boilerplate auto-generated for you, which you see above in `mapN()`). This allows you to model independent computation, particularly useful if you want to, say, accumulate results from all the independent failures, i.e. [cats.Validated](https://typelevel.org/cats/datatypes/validated.html).
 
-#### Intuition: What Functors, Applicatives, and Monads can express
-Here it is: the part where I explain `Monad`. The most intuitive way I can find is by thinking of *computation graphs*; and a `Monad` as *representing a computation context*.
+### Dependent Computations with Monads
+
+Here it is: the part where I explain `Monad`. In a concrete sense, a `Monad` is simply this: anything which you can `flatMap` over (and satisfies a couple basic laws, e.g. you can derive the `map` and `product` from `Functor` and `Applicative`):
+
+```scala
+trait Monad[F[_]] extends Applicative[F[_]]{
+  def flatMap[A, B](value: F[A])(func: A => F[B]): F[B]
+
+  def pure[A](value: A): F[A]
+  
+  override final def map[A, B](value: F[A])(func: A => B): F[B] =
+    flatMap(value)(a => pure(func(a)))
+  override final def product[A, B](fa: Calc[A], fb: Calc[B]): Calc[(A, B)] =
+    fa.flatMap{ a => fb.map{ b => (a, b) } }
+}
+
+def stringifyAnyInternal[F[_] : Monad](xs: F[Double]): F[String] = xs.map(_.toString)
+```
+
+The most intuitive way I can find is by thinking of *computation graphs*; and a `Monad` as *representing a computation context*.
 
 Let's first consider `Functor`, which can express a single *statically defined* graph using `map()`. But you can't combine contexts, and you can't dynamically change the path based on values from a previous step.
 ```scala 
