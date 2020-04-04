@@ -115,14 +115,8 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 
 
 ## Finances
-* **Money and Happiness** [(80,000 Hours)](https://80000hours.org/articles/money-and-happiness/)
-  * Moment-to-moment "happiness" increases with money until you’re making ~$70-80k (i.e. around where money stops becoming a stress factor and you can live “comfortably”) and then having more money has little impact. 
-    * Interestingly, **"life satisfaction" keeps going up as you make more money** - and the ceiling is unclear.
-  * What you spend the money on can impact your happiness: favor 1) giving charitably, 2) buying experiences instead of possessions, and 3) **use money to free up your time** so you can do more of the things you enjoy.
-* **Use an automated budgeting tool** (Mint or similar) for personal finance, as it’ll intelligently categorize transactions and track your budgets.
-  * **Spending**: advice from misc sources recommend rent spending of <30% gross income, groceries spending of $200-400/month, clothing spending of <5% net income.
-  * **Saving**: You'll want enough cash to cover at least 3 months of expenses (i.e. checking account), the rest in investments (take as much advantage as possible from tax breaks via retirement accounts). As you increase income, increase the % you save (keep some -e.g. 50%- to increase standard of living).
-  * **Investments** (does not in any way constitute advice): see my comprehensive [google doc](https://docs.google.com/document/d/1NkatARKAKqRDoJDDuXqse3Wx5LXjBVrh0UFXeIaReiQ/edit#)
+  * see my comprehensive [google doc](https://docs.google.com/document/d/1NkatARKAKqRDoJDDuXqse3Wx5LXjBVrh0UFXeIaReiQ/edit#)
+  
 ## Learning
 * I organize things I learn into an **"Advisor"** doc (similar to the idea of Principles) - in fact, this Productivity guide is part of it
 * **Learn through online courses and [the best textbooks](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject)** instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
