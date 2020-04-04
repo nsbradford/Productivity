@@ -122,10 +122,7 @@ By [Nicholas S. Bradford](http://nicholasbradford.io)
 * **Use an automated budgeting tool** (Mint or similar) for personal finance, as it’ll intelligently categorize transactions and track your budgets.
   * **Spending**: advice from misc sources recommend rent spending of <30% gross income, groceries spending of $200-400/month, clothing spending of <5% net income.
   * **Saving**: You'll want enough cash to cover at least 3 months of expenses (i.e. checking account), the rest in investments (take as much advantage as possible from tax breaks via retirement accounts). As you increase income, increase the % you save (keep some -e.g. 50%- to increase standard of living).
-  * **Investments** (does not in any way constitute advice): if you only pick one book, use *A Random Walk Down Wall Street* by Burton Malkiel, summarized as: don't bother with alpha/trying to beat the market, use total-market funds to diversify across companies, and across countries (["Geographic Diversification Can Be a Lifesaver"](https://www.bridgewater.com/research-library/daily-observations/geographic-diversification-can-be-a-lifesaver/)).
-    * Note that Robo-advisers suffer from the terror of [compound fees](https://medium.com/@blakeross/wealthfront-silicon-valley-tech-at-wall-street-prices-fdd2e5f54905)
-    * I automate my investments using [Quantopian](https://www.quantopian.com/) with [Robinhood](https://robinhood.com/) which more or less gets you a Robo-advisor for free, albeit a somewhat sketchy/fragile one (looking for alternatives).
-
+  * **Investments** (does not in any way constitute advice): see my comprehensive [google doc](https://docs.google.com/document/d/1NkatARKAKqRDoJDDuXqse3Wx5LXjBVrh0UFXeIaReiQ/edit#)
 ## Learning
 * I organize things I learn into an **"Advisor"** doc (similar to the idea of Principles) - in fact, this Productivity guide is part of it
 * **Learn through online courses and [the best textbooks](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject)** instead of random blogs, podcasts, and articles. I’ve found Coursera, edX, and Udacity to all work well.
