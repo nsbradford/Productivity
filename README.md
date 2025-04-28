@@ -1,7 +1,13 @@
 # Productivity
 
-By [Nicholas S. Bradford](http://nicholasbradford.io)
+By [Nick Bradford](http://nsbradford.com)
 
+> [!WARNING]
+> Consolidated docs on productivity and tech careers now live in [this Google doc](https://docs.google.com/document/d/1OvToSVJdEz5YoEfPbquUSfYHVQkYyBpWWS1siTl_g8g/edit?tab=t.0#heading=h.fa7gjwn5lq8).
+> See more at [http://nsbradford.com](http://nsbradford.com)
+
+
+## About
 * **A collection of ideas regarding productivity**, varying in level from abstract to detailed, and varying in supporting evidence from personal intuition to scientific study.
 * This document is continuously updating.
 * For more, see:  [Career, Life, and Interview Resources 
