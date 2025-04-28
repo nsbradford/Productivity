@@ -3,6 +3,7 @@
 By [Nick Bradford](http://nsbradford.com)
 
 > [!WARNING]
+> My most recent productivity learnings have been collected into this blog: [To Improve Your Life, First Measure It](https://nickbradford.substack.com/p/to-improve-your-life-first-measure)
 > Consolidated docs on productivity and tech careers now live in [this Google doc](https://docs.google.com/document/d/1OvToSVJdEz5YoEfPbquUSfYHVQkYyBpWWS1siTl_g8g/edit?tab=t.0#heading=h.fa7gjwn5lq8).
 > See more at [http://nsbradford.com](http://nsbradford.com)
 
